@@ -1,0 +1,8 @@
+.welcome-heading {
+    font-style: italic;
+    color: #176280;
+    border: 1px solid blueviolet;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #f4ffed;
+}
