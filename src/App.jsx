@@ -4,6 +4,8 @@ import WelcomeText from "./components/WelcomeText";
 import HeaderText from "./components/HeaderText";
 import HeaderImage from "./components/HeaderImage";
 import Copyrights from "./components/Copyrights";
+import Footer from "./components/Footer";
+import Counter from "./components/Counter";
 
 function App() {
     return (
@@ -11,14 +13,19 @@ function App() {
             <div className="App">
                 <header className="App-header">
                     <HeaderText/>
-                    <HeaderImage />
+
+                    <Counter/>
+                    {/*<HeaderImage/>*/}
                     <WelcomeText/>
                 </header>
-
-                <Copyrights />
+                <Footer/>
+                <Copyrights/>
             </div>
         </>
     );
 }
 
 export default App;
+
+
+
